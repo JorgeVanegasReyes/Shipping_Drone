@@ -1,0 +1,9 @@
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\bin\Debug\netstandard2.1\ShippingDrone.App.Dominio.deps.json
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\bin\Debug\netstandard2.1\ShippingDrone.App.Dominio.dll
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\bin\Debug\netstandard2.1\ShippingDrone.App.Dominio.pdb
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.csprojAssemblyReference.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.AssemblyInfoInputs.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.AssemblyInfo.cs
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.csproj.CoreCompileInputs.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.dll
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Dominio\obj\Debug\netstandard2.1\ShippingDrone.App.Dominio.pdb

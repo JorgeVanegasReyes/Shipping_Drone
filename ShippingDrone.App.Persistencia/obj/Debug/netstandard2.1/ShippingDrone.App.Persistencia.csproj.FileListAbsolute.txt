@@ -1,0 +1,12 @@
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.csprojAssemblyReference.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.AssemblyInfoInputs.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.AssemblyInfo.cs
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\bin\Debug\netstandard2.1\ShippingDrone.App.Persistencia.deps.json
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\bin\Debug\netstandard2.1\ShippingDrone.App.Persistencia.dll
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\bin\Debug\netstandard2.1\ShippingDrone.App.Persistencia.pdb
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\bin\Debug\netstandard2.1\ShippingDrone.App.Dominio.dll
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\bin\Debug\netstandard2.1\ShippingDrone.App.Dominio.pdb
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.csproj.CopyComplete
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.dll
+C:\shippingDrone\ShippingDrone.App\ShippingDrone.App.Persistencia\obj\Debug\netstandard2.1\ShippingDrone.App.Persistencia.pdb
