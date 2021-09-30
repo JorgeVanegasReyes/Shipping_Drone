@@ -18,9 +18,9 @@ namespace ShippingDrone.App.Consola
             var persona = new Persona
             {
                 
-                Nombre = "Jorge Eduardo",
-                Apellidos = "Vanegas Reyes",
-                Celular = "321 9706839"
+                Nombre = "Jorge",
+                Apellidos = "Vanegas",
+                Celular = "320 2306839"
             };
             _repoPaciente.AddPersona(persona); /*agrega a persona*/
         }
