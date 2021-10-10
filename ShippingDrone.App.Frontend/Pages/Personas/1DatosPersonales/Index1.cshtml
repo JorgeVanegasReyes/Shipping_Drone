@@ -1,0 +1,41 @@
+﻿@page
+@model deliveryDrone.App.Frontend.Pages.Index1Model
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos1.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+     
+    
+<form action="" class="formulario">
+        <h1 class="formulario__titulo"><span><i class="far fa-id-card"></i></span>DATOS PERSONALES </h1>
+ 
+        <input type="text" class="formulario__input" placeholder="Nombres" >
+        <input type="text" class="formulario__input" placeholder="Apellidos" >
+        <input type="text" class="formulario__input" placeholder="Cédula" >
+        <input type="text" class="formulario__input" placeholder="Celular" >
+        <input type="text" class="formulario__input" placeholder="Dirección de entrega" >
+
+        <br/> <!--salto de linea  -->
+        <br/> 
+        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                <b>Acepto los Terminos y Condiciones</b> <!--las <b> son para colocar negrita al texto-->
+            
+        <div class="col">
+        <button type="submit" class="formulario__submit"><span> <i class="fas fa-file-signature"></i></span>Registrar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+        </div>
+    </form>
+    </body>
+
+    </html>

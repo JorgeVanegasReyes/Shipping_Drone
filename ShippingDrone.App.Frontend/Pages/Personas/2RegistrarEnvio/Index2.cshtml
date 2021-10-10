@@ -1,0 +1,90 @@
+﻿@page
+@model deliveryDrone.App.Frontend.Pages.Index2Model
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos2.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    </head> 
+
+<body>
+<form method="post">
+  <div>
+    <div class="formulario">
+        <h1><span> <i class="fas fa-file-signature"></i></span>Registrar envio y <span><i class="fas fa-box-open"></i></span>Estado del pedido</h1>
+        <br>
+      <div class="block"> 
+      <input type="text" class="formulario__input" placeholder="Nombres">
+     
+      <input type="text" class="formulario__input" placeholder="Id pedido">
+      <input type="text" class="formulario__input" placeholder="Apellidos">
+      <input type="text" class="formulario__input" placeholder="Temperatura de la zona">
+      <input type="text" class="formulario__input" placeholder="Cédula">
+      <input type="text" class="formulario__input" placeholder="Tiempo de llegada">
+      <input type="text" class="formulario__input" placeholder="Celular">
+      
+      <div class="col-md-4">
+      <label for="inputState" class="form-label"><b>ESTADO DEL DRON:</b></label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>Bateria nivel Alto</option>
+          <option>Bateria nivel Medio</option>
+          <option>Bateria nivel Bajo</option>
+          <option>Helices en muy buen estado . . .</option>
+          <option>Helices para cambio</option>
+          <option>Perdida total</option>
+        </select>
+      </div>
+      <input type="text" class="formulario__input" placeholder="Dirección entrega">
+      <div class="col-md-4">
+     <label for="inputState" class="form-label"><b>ESTADO DEL PAQUETE:</b></label> 
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>En perfecto estado . . .</option>
+          <option>Bueno</option>
+          <option>Regular</option>
+          <option>destruido</option>
+        </select>
+      </div>
+    </div>
+      
+    
+    <div class="block2">
+      <input type="text" class="formulario__input" placeholder="Encargado designado">
+    </div>
+        <div class="row justify">
+          <div class="col">
+              <button type="submit" class="formulario__submit"><span> <i class="fas fa-file-signature"></i></span>Registrar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+          </div>
+          <div class="col order-1">
+              <button type="submit" class="formulario__submit"><span> <i class="fas fa-search"></i></span>Buscar</button>
+          </div>
+          <div class="col order-2">
+              <button type="submit" class="formulario__submit"><span><i class="far fa-edit"></i></span>Actualizar</button>
+          </div>
+          <div class="col order-3">
+              <button type="submit" class="formulario__submit"><span><i class="far fa-trash-alt"></i></span> Eliminar</button>
+          </div>
+        </div>
+
+    </div>
+    
+  </div>
+    </div>
+
+    </form>
+    <div class="historico">
+        <p>Ir a historial de pedidos por cada cliente:</p>
+    <a href="Historico4" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true"><span><i class="fas fa-history"></i></span>Histórico Pedidos</a>
+    </div>
+</body>
+
+</html>

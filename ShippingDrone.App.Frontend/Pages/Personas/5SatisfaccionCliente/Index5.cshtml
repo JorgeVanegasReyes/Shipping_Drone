@@ -1,0 +1,67 @@
+﻿@page
+@model deliveryDrone.App.Frontend.Pages.Index5Model
+@{
+}
+
+<!DOCTYPE html> <!--  -->
+<html lang="es">
+<!-- tipo de lenguaje -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Shipping Drone</title>
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="~/css/estilos5.css" />
+  <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <form method="post">
+    <div>
+      <div class="formulario">
+        <h1>SATISFACCIÓN </h1>
+        <h1><span><i class="far fa-grin-beam"></i></span>CLIENTE</h1>
+        <br>
+        <div class="block">
+          <input type="text" class="formulario__input" placeholder="Id pedido" aria-label="Id pedido">
+          <input type="text" class="formulario__input" placeholder="Nombre cliente" aria-label="Nombre cliente">
+        </div>
+
+        <div class="block2">
+          <label for="inputState" class="form-label"><b>Nivel de satisfaccion :</b></label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Excelente servicio</option>
+            <option>Bueno</option>
+            <option>Regular</option>
+            <option>Pesimo; Hay que hacer cambios</option>
+          </select>
+          <br>
+          <br>
+          <br>
+           <div class="texto"> 
+          <form action="">
+              <p>Su opinión es my importante, por favor comentenos el proceso, mientras realizaba y esperaba el pedido.</p>
+              <textarea class="estilotexto"style="resize:none;" cols="55" rows="4" placeholder="Escribe aqui tu mensaje"></textarea>
+          </form>
+        </div>
+          <div class="col">
+            <button type="submit" class="formulario__submit"><span><i class="far fa-save"></i></span>Guardar</button>
+            <!-- para que envie datos tiene que ser submit y no bottom -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </form>
+
+   <figure><img src="drone1.jpg"></figure>
+
+
+</body>
+
+</html>

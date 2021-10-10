@@ -1,0 +1,76 @@
+@page
+@model deliveryDrone.App.Frontend.Pages.Historico4Model
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos4.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    
+    
+    </head> 
+
+<body>
+<form method="post">
+  <div>
+    <div class="formulario">
+        <h1><span><i class="fas fa-history"></span></i>HISTÓRICO DE PEDIDOS POR CADA CLIENTE</h1>
+        <br>
+        
+      <div class="block"> 
+      <input type="text" class="formulario__input" placeholder="Nombre cliente">
+      <input type="text" class="formulario__input" placeholder="Cédula" >
+      </div>
+
+      
+    <div class="block2">
+        <table style="width:100%">
+          <thead>
+              <tr>
+                  <th scope="col">Id pedido</th>
+                  <th scope="col">Encargado designado</th>
+                  <th scope="col">Dirección entrega</th>
+                  <th scope="col">Estado de paquete</th>
+                  <th scope="col">Tiempo de llegada</th>
+                  <th scope="col">Satisfacción cliente</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>  <!--table row  --> 
+                  <td></td> <!-- table data -->
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+  <br/> <!--salto de linea  -->
+  <br/>
+                <div class="col">
+                   <button type="submit" class="formulario__submit"><span><i class="fas fa-search"></i></span>Buscar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+                </div>
+      </div>      
+        
+                
+            
+          </div>
+        </div>
+    </div>
+
+    </form>
+    <div class="historico">
+        <p>Ir a Registrar Envio del cliente:</p>
+    <a href="Index2" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true"><span><i class="fas fa-file-signature"></i></span>Registrar Envio</a>
+    </div>
+</body>
+
+</html>
+

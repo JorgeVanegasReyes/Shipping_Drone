@@ -1,0 +1,204 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; 
+}
+body{
+    margin:none;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(01MainBackground.jpg); /*para la imagen estatica de fondo */
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no repeat;         
+}
+.menu_bar{
+  background: rgba(0,0,0,0.6);
+  text-align:center;
+  width:100%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 0 5%;
+  height:2cm; 
+}
+.logo{
+  color:white;
+  font-size:35px;
+  font-family:Arial;
+  font-weight:1200;
+}
+.logo span{
+  color:blue;
+}
+.menu_bar ul{
+  list-style:none;
+  display:inline-flex;
+  color:white;
+}
+.menu_bar ul li{
+  padding:10px 35px;
+  padding-top:35px;
+}
+.menu_bar ul li a{
+  text-decoration:none;
+  color:white;
+  font-size:11px;
+  padding: 3px;
+}
+.menu_bar ul li a span{
+  margin-right:15px; 
+}
+.menu_bar ul li:hover{
+  background:rgba(0,0,0,0.5);
+  /*border-radius: 90px;
+  background:rgba(70, 5, 247, 0.7);*/
+}
+.col span{
+  margin-right:15px;
+}
+
+
+/*titulo principal*/
+.display-4{
+  margin-top:20px;
+  font-family: fantasy;
+  /*text-shadow:0px 0px 4px black;*/
+}
+.text-center p{
+  font-size:20px;
+  font-weight: 400;
+  font-family: fantasy;
+  
+}
+
+.p1{
+  font-family:fantasy;
+  font-size:20px;
+  font-weight: 700;
+  margin-left:0%;
+  margin-top:70px;
+  
+}
+/*.p2{
+  font-family:fantasy;
+  font-size:20px;
+  font-weight: 700;
+  margin-left:25%;
+  margin-top:1px;
+  
+}*/
+.p3{
+  font-family:fantasy;
+  font-size:20px;
+  font-weight: 700;
+  /*margin-left:5%;*/
+  
+}
+.galeria1{
+  width:300px;
+  height:300px;
+  max-width:100%;
+  margin:auto;
+  margin-top:30px;
+  position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+  border-radius:20px;
+  background-image: url(DroneGaleria1.jpg);
+  background-size:100%;
+  margin-left:0%;
+  box-shadow:0px 5px 30px 0px black;
+}
+  
+
+.galeria3{
+  width:500px;
+  height:310px;
+  max-width:100%;
+  margin:auto;
+  position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+  border-radius:20px;
+  background-image: url(DroneGaleria3.jpg);
+  background-size:100%;
+  margin-left:0%;
+  margin-bottom:40px;
+  box-shadow:0px 0px 30px 0px black;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+  width:100%;
+  padding:50px 0px;  /*50px-arriba y abajo ---0px-izquierda,derecha*/
+  background: rgba(0,0,0,0.8);
+}
+.container_footer{
+  display:flex; /*para que las columnas queden una al lado de la otra*/
+  justify-content:space-between; /*para que las cajas tengan  las mismas dimensiones y ocupen el ancho completo del proyecto*/
+  margin:auto;/*el contenedor se mantenga centrado*/
+  max-width:80%;  /*ocupa solo el 80% de de los borde de la pantalla*/
+
+}
+.box_footer{
+    display:flex;
+    flex-direction:column; /*para que se alinien en fila y no en columna*/
+    padding:40px; /*para que mantengan un pequeño margen de distancia*/
+    
+}
+.box_footer .terms1{
+    width:300px;
+    font-weight: 500;
+    font-size:13px;
+    color:black;
+}
+.box_footer .terms2{
+  width:200px;
+  font-weight: 500;
+  font-size:13px;
+  color:black; 
+}
+.terms3{
+  width:500px;
+  font-weight: 500;
+  font-size:13px;
+  color:black;
+  padding:1px 16px;  
+}
+.terms3 span{
+  margin-right:5px;
+}
+.terms2 span{
+  margin-right:15px;
+}
+.box_footer a{
+  color:black;
+  font-weight:700;
+  margin-right:15px; /*separacion de las redes sociales*/
+  text-decoration: none;
+}
+.box_footer a:hover{
+  opacity:0.8;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 10px;} /* Vertically center the text there */
+

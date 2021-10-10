@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(4HistoricoPedidos.jpg); /*para la imagen estatica de fondo */
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no repeat;   
+}
+
+.formulario{
+  width:100%;
+  max-width:100%;
+  margin:auto;
+  margin-top:40px; /*espaciado desde la navbar*/
+  margin-bottom:50px; /*espaciado desde el footer*/
+  padding:20px;
+  box-shadow:0  0 20px 1px rgba(0,0,0,0.3);
+  position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+  border-radius:20px;
+  
+}
+.formulario .block{
+ display:grid;   /* para separar en columnas*/
+  grid-template-columns:1fr 1fr;
+  color:white;
+  font-size:1.3em;
+
+}
+.formulario .block2{
+  padding:15px;
+  font-size:1.2em;
+  width:100%;
+}
+
+.formulario .col{
+  margin-top:40px;
+}
+.col{
+  margin-left:50%;
+}
+
+.formulario__input{
+  display:block;
+  width:95%;
+  font-size:1em; /*tamaño de la fuente dentro del input*/
+  margin-left:10px; /*correr la caja del input hacia la derecha*/
+  padding:8px;
+  border:1px solid rgba(0,0,0,0.3);
+  margin-bottom:40px;
+  border-radius:30px;
+  background: rgba(0,0,0,0.7);
+  color:white;
+  
+}
+.formulario h1{
+    font-weight: bold; /*negrita*/
+    font-weight: 900; /*grosor-negrita*/
+    font-family: fantasy;
+    margin-bottom:40px;
+}
+.formulario h1 span{
+  margin-right:20px; /*para separar el icono de la palabra*/
+  font-size:80px;  /*tamaño del icono*/
+}
+.col span{
+  margin-right:15px;
+}
+.formulario__input:focus{
+  outline:1px solid rgba(0,0,0,0.7);
+}
+.formulario__submit{
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding: 10px 10px;
+  cursor:pointer;
+  width:17%;  /*el tamaño en ancho del boton submit-enviar*/
+  border:none;
+  border-radius:20px;
+  font-size:1em;
+  margin-left:20%;
+  transition:.5s;
+}
+.formulario__submit:hover{
+  transform:translateY(10px); /*para que el boton se mueva de arriba abajo --y translateX, es para que se mueva izq-der, el desplazamiento es mayor 20px*/
+}
+.historico{
+  margin-bottom:100px;
+  margin-top:20px;
+  margin-left:40%;
+  border-radius:30px;
+  font-size:18px;
+  font-family:Arial;
+  font-weight: bold; /*negrita*/
+}
+.historico span{
+  margin-right:15px; /*para separar el icono de la palabra*/
+}
+.historico:hover{
+  transform:translateY(10px); /*para que el boton se mueva de arriba abajo --y translateX, es para que se mueva izq-der, el desplazamiento es mayor 20px*/
+}

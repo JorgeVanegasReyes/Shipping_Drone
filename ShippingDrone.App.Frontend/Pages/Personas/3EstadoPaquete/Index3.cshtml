@@ -1,0 +1,67 @@
+﻿@page
+@model deliveryDrone.App.Frontend.Pages.Index3Model
+@{
+}
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos3.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script> 
+    </head> 
+
+<body>
+<form method="post">
+  <div>
+    <div class="formulario">
+        <h1><span><i class="fas fa-box-open"></i></span>CONSULTAR ESTADO DEL PEDIDO</h1>
+        <br>
+        <label for="inputState" class="form-label"><b><i class="fas fa-angle-double-right"></i><i class="fas fa-angle-double-right"></i> Datos del envio</b></label>
+      <div class="block"> 
+      <input type="text" class="formulario__input" placeholder="Id pedido">
+      <input type="text" class="formulario__input" placeholder="Nombre cliente" >
+      </div>
+
+      <label for="inputState" class="form-label"><b><i class="fas fa-angle-double-right"></i> <i class="fas fa-angle-double-right"></i> Datos del estado del pedido</b></label>
+    <div class="block3">
+        <table style="width:100%">
+          <thead>
+              <tr>
+                  <th scope="col">Encargado designado</th>
+                  <th scope="col">Temperatura de la zona</th>
+                  <th scope="col">Estado del dron</th>
+                  <th scope="col">Estado del empaque</th>
+                  <th scope="col">Tiempo de llegada</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>  <!--table row  --> 
+                  <td></td> <!-- table data -->
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+  <br/> <!--salto de linea  -->
+  <br/>
+                <div class="col">
+                   <button type="submit" class="formulario__submit"><span><i class="fas fa-search"></i></span>Buscar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+                </div>
+      </div>      
+              
+          </div>
+        </div>
+    </div>
+
+    </form>
+</body>
+
+</html>
+

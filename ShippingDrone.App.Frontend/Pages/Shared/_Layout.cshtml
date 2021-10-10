@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="menu_bar">
+                    <h1 class="logo">Shipping<span>Drone</span></h1>
+                    <ul>
+                    
+                        <li>
+                             
+                            <a asp-area="" asp-page="/Index"><span><i class="fas fa-home"></i></span>Home</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="Personas/1DatosPersonales/Index1"><span><i class="fas fa-file-signature"></i></span>Solicitar<br/>Pedido</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="Personas/3EstadoPaquete/Index3"><span><i class="fas fa-box-open"></i></span>Consultar estado<br/>del pedido</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="Personas/5SatisfaccionCliente/Index5"><span><i class="far fa-grin-beam"></i></span>Satisfacción <br>cliente</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="Personas/2RegistrarEnvio/Index2"><span><i class="fas fa-user-lock"></i></span>Empleado</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+     <footer>
+      <div class="container_footer">
+          <div class="box_footer">
+              <div class="terms1">
+                  <h5>Shipping Drone</h5>
+                  <p>Todos tus pedidos se realizan con estandares de alta calidad, que garantizan la eficacia del servicio, para una entrega con rapidez</p>
+              </div>
+          </div>
+
+          <div class="box_footer">
+            <div class="terms2">
+                <h5>Solicita tu pedido:</h5>
+                <div class="historico">
+              <a href="Personas/1DatosPersonales/Index1"><span><i class="fas fa-file-signature"></i></span>Solicitar Pedido</a>
+              </div>
+            </div>
+        </div>
+
+          <div class="box_footer">
+            <div class="terms3">
+              <h5>Redes sociales</h5>
+             <a href="#"><span><i class="fab fa-whatsapp"></i></span>Whatsapp</a>
+             <a href="#"><span><i class="fab fa-facebook-f"></i></span>Facebook</a>
+             <a href="#"><span><i class="fab fa-instagram"></i></span>Instagram</a>
+             <a href="#"><span><i class="fab fa-twitter"></i></span>Twitter</a>
+            </div>
+          </div>
+      </div>  
+
+        <div class="container">
+            &copy; 2021 - Shipping Drone - <a asp-area="" asp-page="/Index">Home</a>
+        </div>      
+      </footer> 
+
+
+
+    <!--<footer class="border-top footer text-muted"> 
+       &copy; 2021 - Shipping Drone - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </footer> -->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

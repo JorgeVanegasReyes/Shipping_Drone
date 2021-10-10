@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(5SatisfaccionCliente.jpg); /*para la imagen estatica de fondo */
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no repeat;   
+}
+
+.formulario{
+  width:45%;
+  max-width:100%;
+  margin:auto;
+  margin-top:40px; /*espaciado desde la navbar*/
+  margin-bottom:100px; /*espaciado desde el footer*/
+  padding:20px;
+  box-shadow:0  0 20px 1px rgba(0,0,0,0.3);
+  position:relative; /*relavite, porque vamos a posisionar otro elemento en base al formulario*/
+  margin-left:5px;
+  border-radius:20px;
+  
+}
+.formulario .block{
+ 
+  color:white;
+  font-size:1.3em;
+
+}
+.formulario .block2{
+  font-size:1.1em;
+  padding:20px;
+  
+}
+.formulario p{
+  color:black;
+  padding-bottom:0px;
+  font-size:13px;
+  margin-left:55px;
+}
+.block p{
+  color:black;
+  padding-bottom:0px;
+  font-size:13px;
+  margin-left:15px;
+}
+.block p:hover{
+  transform:translateY(10px);
+}
+.form-label{
+  text-align:center;
+  font-size:1.3em;
+}
+/*.formulario .col{
+  margin-top:40px;
+}*/
+.formulario__input{
+  display:block;
+  width:100%;
+  font-size:1em; /*tamaño de la fuente dentro del input*/
+ /* margin-left:10px; /*correr la caja del input hacia la derecha*/
+  padding:5px;
+  border:1px solid rgba(0,0,0,0.3);
+  margin-bottom:20px;
+  margin-top:30px;
+  border-radius:30px;
+  background: rgba(0,0,0,0.7);
+  color:white;
+  
+}
+.formulario h1{
+    text-align:center;
+    font-weight: bold; /*negrita*/
+    font-weight: 900; /*grosor-negrita*/
+    font-family: fantasy;
+}
+.formulario h1 span{
+  margin-right:20px; /*para separar el icono de la palabra*/
+  font-size:40px;  /*tamaño del icono*/
+}
+.col{
+    padding-top:30px;
+}
+.col span{
+  margin-right:15px;
+}
+.formulario__input:focus{
+  outline:1px solid rgba(0,0,0,0.7);
+}
+.texto p{
+ font-size: 1em;
+ font:bold;
+ margin-left:0px;
+ padding-bottom:1px;
+}
+.estilotexto{
+    font-size:14px;
+    padding-top:5px;
+    background: rgba(0,0,0,0.7);
+    color:white;
+}
+
+.formulario__submit{
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding: 8px 8px;
+  cursor:pointer;
+  width:40%;  /*el tamaño en ancho del boton submit-enviar*/
+  border:none;
+  border-radius:20px;
+  font-size:20px;
+
+  transition:.5s;
+}
+.formulario__submit:hover{
+  transform:translateY(10px); /*para que el boton se mueva de arriba abajo --y translateX, es para que se mueva izq-der, el desplazamiento es mayor 20px*/
+}
+
+
+
